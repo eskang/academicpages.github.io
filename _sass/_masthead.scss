@@ -3,18 +3,18 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
-  border-bottom: 1px solid $border-color;
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
+    position: relative;
+    border-bottom: 1px solid $border-color;
+  // -webkit-animation: intro 0.3s both;
+  //         animation: intro 0.3s both;
+  // -webkit-animation-delay: 0.15s;
+  //         animation-delay: 0.15s;
   z-index: 20;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    padding: 0.5em 1em 0.5em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -47,7 +47,7 @@
   white-space: nowrap;
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 1.6em;
     font-weight: 700;
   }
 }

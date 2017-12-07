@@ -14,10 +14,10 @@
   padding-left: 2em;
   padding-right: 2em;
   font-family: $sans-serif;
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.30s;
-          animation-delay: 0.30s;
+  // -webkit-animation: intro 0.3s both;
+  //         animation: intro 0.3s both;
+  // -webkit-animation-delay: 0.30s;
+  //         animation-delay: 0.30s;
 
   @include breakpoint($large) {
     padding-left: 1em;
@@ -210,6 +210,7 @@
 
       &:first-child {
         font-weight: bold;
+	font-size: $type-size-3;
 
         a {
           margin-left: 0;

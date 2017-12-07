@@ -14,8 +14,8 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    @include span(2 of 12);
-    opacity: 0.75;
+    @include span(3 of 12);
+    opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
 
@@ -38,10 +38,16 @@
     font-size: $type-size-5;
   }
 
-  p, li {
+  p {
     font-family: $sans-serif;
     font-size: $type-size-6;
     line-height: 1.5;
+  }
+
+  li {
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    line-height: 1.0;
   }
 
   img {
@@ -82,12 +88,12 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    max-width: 255px;
+    border-radius: 0;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 1px;
+      border: 0px solid $border-color;
     }
   }
 }
@@ -117,7 +123,7 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
 }
 
 .author__bio {
