@@ -311,3 +311,6 @@ scholar:
   style: ieee
   repository: files
   bibliography_template: bib
+  bibliography_list_attributes:
+    class: "bib_list"
+    

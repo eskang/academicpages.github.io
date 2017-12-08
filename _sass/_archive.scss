@@ -4,7 +4,7 @@
 
 .archive {
   margin-bottom: 2em;
-
+  
   @include breakpoint($medium) {
     @include span(12 of 12);
   }
@@ -242,15 +242,13 @@
    Bibtex
    ========================================================================== */
 
-ol {
-    list-style: square;
-    padding-left: 1.0em;
-}
-
-.bib_entry {
+.bib_list {
+    list-style: none;
+    padding-left: 0.1em;
     font-size: $type-size-55;   
 }
 
 .bib_entry a {
     color: $link-color;
 }
+

@@ -24,11 +24,9 @@ Recent Publications
 
 {% bibliography --query @*[id=fse16a] %}
 
-{% reference fse16a %}
+{% bibliography --query @*[id=iotdi17] %}
 
-{% reference iotdi17 %}
-
-{% reference icse15 %}
+{% bibliography --query @*[id=icse15] %}
 
 Short Bio
 ======
