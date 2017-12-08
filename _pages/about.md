@@ -22,6 +22,8 @@ To this end, I am interested in a wide range of techniques from software enginee
 Recent Publications
 ======
 
+{% bibliography --query @*[id=fse16a] %}
+
 {% reference fse16a %}
 
 {% reference iotdi17 %}

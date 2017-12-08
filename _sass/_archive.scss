@@ -242,6 +242,15 @@
    Bibtex
    ========================================================================== */
 
+ol {
+    list-style: square;
+    padding-left: 1.0em;
+}
+
 .bib_entry {
     font-size: $type-size-55;   
+}
+
+.bib_entry a {
+    color: $link-color;
 }
